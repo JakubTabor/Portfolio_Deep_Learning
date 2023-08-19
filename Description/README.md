@@ -1,3 +1,5 @@
+**BATCH GRADIENT DESCENT**
+
 # First I load my simple dataset which include three columns : area, bedrooms and	price
 * Now I need to scale my data, so I import "MinMaxScaler" from "preprocessing", and put inside area and bedroom columns I save it as X_scaled 
 * Then I scale price column and I also reshape it into 2D array, I save it as x_scaled
@@ -33,3 +35,5 @@
 
 # First prediction is for second house in my data, which is quite well predicted, next I check 5th house which is worst than previous
 * My function not perform excellent, but is able to get close real values
+
+**STOCHASTIC GRADIENT DESCENT**
