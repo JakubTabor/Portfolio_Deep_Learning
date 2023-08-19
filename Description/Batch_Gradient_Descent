@@ -9,16 +9,14 @@
 * I create two empty list to record cost and epochs and later plot them 
 
 # Then I make for loop in length of my epochs, inside I define "y_predicted", which is dot product of w1, w2 and X transpose, plus bias
-
-# Now I define first derivative, so I pass X transpose dot product of difference between true and predicted value into minus average of total samples 
-# Then my second derivative, which is sum of difference between true and predicted value into minus average of total samples
-# Next I can calculate my weights, so my w minus learning rate into previous defined w_grad, and this same with bias 
-
-# Then I define cost of my function, which is mean squared error between true and predicted value
+* Now I define first derivative, so I pass X transpose dot product of difference between true and predicted value into minus average of total samples 
+* Then my second derivative, which is sum of difference between true and predicted value into minus average of total samples
+* Next I can calculate my weights, so my w minus learning rate into previous defined w_grad, and this same with bias 
+* Then I define cost of my function, which is mean squared error between true and predicted value
 
 # Now I define recording progress, and it will be every tenth iteration
-# In my lists will be filling with values recorded values, cost and epochs
-# And my function will return weights, bias, cost, cost list and epoch list, so I can plot it later
+* In my lists will be filling with values recorded values, cost and epochs
+* And my function will return weights, bias, cost, cost list and epoch list, so I can plot it later
 
 # Then I call my function and put inside X_scaled, y_scaled_reshaped, pass number of epochs (500)
 # And get weights, bias and cost, I can compare it later whith "stochastic_gradient_descent"
