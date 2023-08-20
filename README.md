@@ -16,4 +16,4 @@
 
 # The Third type of Gradient Descent is Mini Batch Gradient Descent 
 * It could be used also on a big datasets, in this case it is very similar to SGD, but its faster on learning process
-* 
+* On graph appears not perfect smooth line because my Gradient Descent (use batch of randomly picked samples)
