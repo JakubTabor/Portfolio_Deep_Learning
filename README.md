@@ -18,3 +18,6 @@
 * It could be used also on a big datasets, in this case it is very similar to SGD, but its faster on learning process
 * On graph appears not perfect smooth line because my Gradient Descent (use batch of randomly picked samples)
 * We set batch size at some number e.g 5 and after forward pass it find error for 5 randomly picked samples, so it updates weights more often than SGD
+
+
+![](https://github.com/JakubTabor/Portfolio_Deep_Learning/blob/main/Images/Mini_Batch_Gradient_Descent.png)
