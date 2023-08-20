@@ -14,3 +14,6 @@
 
 ![](https://github.com/JakubTabor/Portfolio_Deep_Learning/blob/main/Images/Stochastic_GD_plot.png)
 
+# The Third type of Gradient Descent is Mini Batch Gradient Descent 
+* It could be used also on a big datasets, in this case it is very similar to SGD, but its faster on learning process
+* 
