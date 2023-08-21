@@ -36,6 +36,8 @@
 # First prediction is for second house in my data, which is quite well predicted, next I check 5th house which is worst than previous
 * My function not perform excellent, but is able to get close real values
 
+![](https://github.com/JakubTabor/Portfolio_Deep_Learning/blob/main/Images/Batch_GD_plot.png)
+
 **STOCHASTIC GRADIENT DESCENT**
 # Now It's time to build stochastic gradient descent, I need to import random for it
 * I gonna build the function that same as previous, so X, y_true, epochs and learning rate, which I set to (0.01)
