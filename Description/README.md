@@ -75,6 +75,8 @@
 * In comparison (Stochastic Gradient Descent) use only one sample in forward pass and after adjust weights
 * It is good when you have big dataset, because it saves a lot of computation, When you have a lot of computation power you can use also (Stochastic Gradient Descent)
 
+![](https://github.com/JakubTabor/Portfolio_Deep_Learning/blob/main/Images/Stochastic_GD_plot.png)
+
 **MINI BATCH GRADIENT DESCENT**
 # I import and prepare my dataset as previous and scale all columns
 
